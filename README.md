@@ -6,7 +6,7 @@ The project emphasizes backend architecture, clean schema management, and produc
 
 ---
 
-# 🚀 Architecture Overview
+# Architecture Overview
 
 Frontend (React + TypeScript, Vite)
         ↓
@@ -20,7 +20,7 @@ PostgreSQL
 
 ---
 
-# 🏢 Multi-Tenancy Design
+# Multi-Tenancy Design
 
 ## Strategy: Shared Database, Shared Schema
 
@@ -39,7 +39,7 @@ PostgreSQL
 
 ---
 
-# 🔐 Authentication & Security
+# Authentication & Security
 
 ## Authentication
 
@@ -63,7 +63,7 @@ PostgreSQL
 
 ---
 
-# 📋 Core Features
+# Core Features
 
 ## Authentication
 
@@ -86,7 +86,7 @@ PostgreSQL
 
 ---
 
-# 🗄 Database Strategy
+# Database Strategy
 
 ## Local Development
 
@@ -131,7 +131,7 @@ Migrations are tracked in version control.
 
 ---
 
-# 📊 Index Strategy
+# Index Strategy
 
 To support multi-tenant scalability:
 
@@ -148,7 +148,7 @@ Purpose:
 
 ---
 
-# ☁ Cloud Deployment Strategy
+# Cloud Deployment Strategy
 
 ## Production Environment
 
@@ -189,7 +189,7 @@ dotnet ef database update
 
 ---
 
-# ⚙ Environment Configuration
+# Environment Configuration
 
 Configuration separated by environment:
 
@@ -200,7 +200,7 @@ Environment variables override secrets in production.
 
 ---
 
-# 📦 Running Locally
+# Running Locally
 
 ## 1. Clone repository
 
@@ -221,7 +221,7 @@ npm run dev
 
 ---
 
-# 🧠 Design Principles
+# Design Principles
 
 - Secure by default
 - Tenant isolation enforced architecturally
@@ -232,7 +232,7 @@ npm run dev
 
 ---
 
-# 📈 Future Improvements
+# Future Improvements
 
 - Role-based authorization (RBAC)
 - Audit logging
@@ -244,7 +244,7 @@ npm run dev
 
 ---
 
-# 🎯 Engineering Focus
+# Engineering Focus
 
 This project emphasizes:
 
@@ -256,7 +256,7 @@ This project emphasizes:
 
 ---
 
-# 📌 Tech Stack
+# Tech Stack
 
 Backend:
 - ASP.NET Core Web API
